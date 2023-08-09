@@ -42,9 +42,9 @@ class StarWarApi {
   Future<dynamic> checkExist(name) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     bool checker = false;
-    print('StartEXist chcek');
+
     if (prefs.getString('localData') != null) {
-      print('have enough');
+      
       final List forCheck = jsonDecode(prefs.getString("localData").toString());
 
       for (var i = 0; i < forCheck.length; i++) {
@@ -116,7 +116,7 @@ class StarWarApi {
   Future<dynamic> removeData(results, name) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final List forCheck = jsonDecode(prefs.getString("localData").toString());
-    print(forCheck);
+  
     for (var i = 0; i < forCheck.length; i++) {
       if (forCheck[i]['name'] == name) {
         results.removeAt(i);
