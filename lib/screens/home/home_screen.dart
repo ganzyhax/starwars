@@ -143,7 +143,7 @@ class _HomeScreenState extends State<HomeScreen>
                     return BlocBuilder<FavouriteBloc, FavouriteState>(
                       builder: (context, state2) {
                         if (state2 is FavouriteLoaded) {
-                          state2.results.map((e) => print(e));
+                          
                           return ListView.builder(
                               shrinkWrap: true,
                               physics: NeverScrollableScrollPhysics(),
