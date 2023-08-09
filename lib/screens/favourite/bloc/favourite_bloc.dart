@@ -49,7 +49,7 @@ class FavouriteBloc extends Bloc<FavouriteEvent, FavouriteState> {
 
           var res2 = await StarWarApi().removeFilm(allFilms, event.name, 1);
           allFilms = res2;
-          print(allFilms);
+       
           emit(FavouriteLoaded(results, allFilms, is_loading));
         }
       }
@@ -74,7 +74,7 @@ class FavouriteBloc extends Bloc<FavouriteEvent, FavouriteState> {
           results = res;
           var res2 = await StarWarApi().removeFilm(allFilms, event.name, 0);
           allFilms = res2;
-          print(allFilms);
+        
           emit(FavouriteLoaded(results, allFilms, is_loading));
         }
       }
