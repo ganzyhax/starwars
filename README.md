@@ -1,16 +1,17 @@
-# star_wars
+# star_wars - Тестовое задание.
 
-A new Flutter project.
 
-## Getting Started
+Очень интересная задача.
+Потраченное время : 6-7 часов
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Используемые библиотеки (главные)
+shared_preferences - использовал для локального хранения
+flutter_bloc - для работы с state management
+dio - для работы с запросами API
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Запуск
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Открыть папку с приложением (VS Code , Android Studio и.т.д)
+- Написать на терминале команду "flutter pub get"
+- Запуск приложение 
