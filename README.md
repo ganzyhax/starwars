@@ -1,4 +1,4 @@
-# war_stars
+# star_wars
 
 A new Flutter project.
 
