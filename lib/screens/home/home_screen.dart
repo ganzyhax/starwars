@@ -39,8 +39,7 @@ class _HomeScreenState extends State<HomeScreen>
           title: Center(
             child: Container(
               width: 120,
-              child: Image.network(
-                  'https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254'),
+              child: Image.asset('assets/logo_star_war.png'),
             ),
           ),
           backgroundColor: Colors.black,
