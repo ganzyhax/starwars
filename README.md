@@ -6,9 +6,9 @@
 
 
 ## Используемые библиотеки (главные)
-shared_preferences - использовал для локального хранения
-flutter_bloc - для работы с state management
-dio - для работы с запросами API
+ - shared_preferences - использовал для локального хранения
+ - flutter_bloc - для работы с state management
+ - dio - для работы с запросами API
 
 ## Запуск
 
